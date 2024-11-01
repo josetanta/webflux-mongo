@@ -33,6 +33,7 @@ dependencies {
 	testImplementation("com.unboundid:unboundid-ldapsdk")
 	testImplementation("io.projectreactor:reactor-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.3")
 }
 
 tasks.withType<Test> {

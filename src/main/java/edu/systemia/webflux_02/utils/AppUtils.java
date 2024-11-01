@@ -19,5 +19,4 @@ public class AppUtils {
 		BeanUtils.copyProperties(dto, product);
 		return product;
 	}
-
 }

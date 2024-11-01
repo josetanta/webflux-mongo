@@ -26,6 +26,6 @@ jobs:
       - name: Test with Gradle
         run: ./gradlew clean test
 
-      - name: Publish artifacts
-        if: github.ref == 'refs/heads/main'
-        run: ./gradlew publish
+#      - name: Publish artifacts
+#        if: github.ref == 'refs/heads/main'
+#        run: ./gradlew publish
